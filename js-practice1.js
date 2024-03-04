@@ -49,10 +49,16 @@ for (let fruits = 0; fruits < 7; fruits++) {
 //   console.log(number);
 // }
 
-for (let i = 0; i <= 10; i = i + 2) {
-  console.log(i);
-}
+// for (let i = 0; i <= 10; i = i + 2) {
+//   console.log(i);
+// }
 
-for (let i = 1; i <= 10; i = i + 2) {
-  console.log(i);
+// for (let i = 1; i <= 10; i = i + 2) {
+//   console.log(i);
+// }
+
+let names = ["rakib", "sakib", "tamim", "musfiq"];
+for (let i = 0; i < names.length; i++) {
+  let name = names[i];
+  console.log(name);
 }
