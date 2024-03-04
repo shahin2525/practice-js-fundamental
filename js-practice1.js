@@ -13,9 +13,9 @@
 //   console.log("tor kopaley biya nai");
 // }
 
-const num1 = 13;
-const num2 = 79;
-const num3 = 45;
+// const num1 = 13;
+// const num2 = 79;
+// const num3 = 45;
 // if (num1 > num2 && num1 > num3) {
 //   console.log(num1, "is largest");
 // } else if (num2 > num1 && num2 > num3) {
@@ -57,8 +57,33 @@ for (let fruits = 0; fruits < 7; fruits++) {
 //   console.log(i);
 // }
 
-let names = ["rakib", "sakib", "tamim", "musfiq"];
-for (let i = 0; i < names.length; i++) {
-  let name = names[i];
-  console.log(name);
+// let names = ["rakib", "sakib", "tamim", "musfiq"];
+// for (let i = 0; i < names.length; i++) {
+//   let name = names[i];
+//   console.log(name);
+// }
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+//   if (i > 5) {
+//     break;
+//   }
+// }
+
+let numbers = [10, 14, 188, 25, 10, 55, 30, 11];
+// for (let i = 0; i < numbers.length; i++) {
+//   let number = numbers[i];
+
+//   if (number > 100) {
+//     break;
+//   }
+//   console.log(number);
+// }
+
+for (let i = 0; i < numbers.length; i++) {
+  let number = numbers[i];
+  if (number > 25) {
+    continue;
+  }
+  console.log(number);
 }
