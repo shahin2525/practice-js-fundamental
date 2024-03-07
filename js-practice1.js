@@ -123,3 +123,27 @@ for (let fruits = 0; fruits < 7; fruits++) {
 // for (i = 581; i <= 623; i += 2) {
 //   console.log(i);
 // }
+
+// const phones = ["nokia", "samsung", "oppo", "xiomi"];
+// let i = 0;
+// while (i < phones.length) {
+//   let phone = phones[i];
+//   console.log(phone);
+//   i++;
+// }
+
+// for (let i = 30; i <= 86; i++) {
+//   if (i > 44) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+const bookPrices = [20, 30, 350, 60, 650, 70];
+for (i = 0; i < bookPrices.length; i++) {
+  price = bookPrices[i];
+  if (price > 200) {
+    continue;
+  }
+  console.log(price);
+}
