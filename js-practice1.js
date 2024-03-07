@@ -70,7 +70,7 @@ for (let fruits = 0; fruits < 7; fruits++) {
 //   }
 // }
 
-let numbers = [10, 14, 188, 25, 10, 55, 30, 11];
+// let numbers = [10, 14, 188, 25, 10, 55, 30, 11];
 // for (let i = 0; i < numbers.length; i++) {
 //   let number = numbers[i];
 
@@ -80,10 +80,30 @@ let numbers = [10, 14, 188, 25, 10, 55, 30, 11];
 //   console.log(number);
 // }
 
-for (let i = 0; i < numbers.length; i++) {
-  let number = numbers[i];
-  if (number > 25) {
-    continue;
-  }
-  console.log(number);
+// for (let i = 0; i < numbers.length; i++) {
+//   let number = numbers[i];
+//   if (number > 25) {
+//     continue;
+//   }
+//   console.log(number);
+// }
+
+// let numbers = [10, 14, 188, 25, 10, 55, 30, 11];
+// for (let i = 0; i < numbers.length; i++) {
+//   let number = numbers[i];
+
+//   if (number > 30) {
+//     continue;
+//   }
+//   console.log(number);
+// }
+
+// let number = 10;
+// while (number > 5) {
+//   console.log(number);
+//   number--;
+// }
+
+for (i = 10; i >= 1; i--) {
+  console.log(i);
 }
