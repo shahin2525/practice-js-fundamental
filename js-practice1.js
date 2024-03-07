@@ -104,6 +104,22 @@ for (let fruits = 0; fruits < 7; fruits++) {
 //   number--;
 // }
 
-for (i = 10; i >= 1; i--) {
-  console.log(i);
-}
+// for (i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// for (i = 0; i <= 39; i++) {
+//   console.log("ajkey amar mon valo nei", i);
+// }
+
+// for (i = 58; i <= 98; i++) {
+//   console.log(i);
+// }
+
+// for (i = 412; i <= 456; i += 2) {
+//   console.log(i);
+// }
+
+// for (i = 581; i <= 623; i += 2) {
+//   console.log(i);
+// }
