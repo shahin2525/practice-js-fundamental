@@ -139,11 +139,19 @@ for (let fruits = 0; fruits < 7; fruits++) {
 //   console.log(i);
 // }
 
-const bookPrices = [20, 30, 350, 60, 650, 70];
-for (i = 0; i < bookPrices.length; i++) {
-  price = bookPrices[i];
-  if (price > 200) {
-    continue;
-  }
-  console.log(price);
-}
+// const bookPrices = [20, 30, 350, 60, 650, 70];
+// for (i = 0; i < bookPrices.length; i++) {
+//   price = bookPrices[i];
+//   if (price > 200) {
+//     continue;
+//   }
+//   console.log(price);
+// }
+
+// const numbers = [10, 20, 30, 40, 11, 16];
+// // console.log(numbers.slice(1, 3));
+// const name1 = "sakib khan";
+// console.log(name1.includes("Khan"));
+
+// const name1 = "sakib khan";
+// console.log(name1.substring(0, 5));
