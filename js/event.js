@@ -21,3 +21,24 @@ document.getElementById("update").addEventListener("click", function () {
   text.innerText = inputText;
   input.value = "";
 });
+
+//
+document.getElementById("update-btn-2").addEventListener("click", function () {
+  const inputText = document.getElementById("input-2");
+  const inputTextValue = inputText.value;
+
+  const p = document.getElementById("text-2");
+  p.innerText = inputTextValue;
+  inputText.value = "";
+});
+
+//
+document.getElementById("comment-post").addEventListener("click", function () {
+  console.log("clicked");
+  const commentContainer = document.getElementById("comment-container");
+
+  const commentInput = document.getElementById("comment-input");
+  const commentInputText = commentInput.value;
+  commentContainer.innerHTML = `<p>${commentInputText}</p>`;
+  commentInput.value = "";
+});
