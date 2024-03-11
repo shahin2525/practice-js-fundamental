@@ -1,3 +1,5 @@
-document.getElementById("more-event").addEventListener("click", function () {
-  console.log("clicked");
-});
+document
+  .getElementById("more-event")
+  .addEventListener("mouseover", function () {
+    console.log("clicked");
+  });
