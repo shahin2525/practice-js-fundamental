@@ -6,13 +6,29 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Explore more event</h1>
-    <h1 id="hide-info">Hide information from page</h1>
-    <button disabled id="hide-btn">hide</button>
-    <button id="more-event">Events</button>
-    <input id="delete-input" type="text" placeholder="enter delete" />
-    <input id="input" type="text" />
-    <div id="container"></div>
-    <script src="js/more_event2.js"></script>
+    <ul id="ul-container">
+      <li class="item">Lorem, ipsum.</li>
+      <li class="item">Perferendis, adipisci!</li>
+      <li class="item">Iste, nostrum.</li>
+      <li class="item">Dicta, eligendi.</li>
+      <li class="item">Delectus, architecto.</li>
+      <li class="item">Ducimus, eos.</li>
+    </ul>
+    <button id="add-li">add li</button>
+    <script>
+      document
+        .getElementById("ul-container")
+        .addEventListener("click", function (event) {
+          event.target.parentNode.removeChild(event.target);
+        });
+
+      document.getElementById("add-li").addEventListener("click", function () {
+        const li = document.createElement("li");
+        li.classList.add("item");
+        li.innerText = "item";
+        const ulContainer = document.getElementById("ul-container");
+        ulContainer.appendChild(li);
+      });
+    </script>
   </body>
 </html>
