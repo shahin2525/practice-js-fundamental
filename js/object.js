@@ -56,13 +56,32 @@
 
 // console.log(make_avg(1, 2, 3));
 
-const make_avg = (numbers) => {
-  console.log(numbers);
-  for (i = 0; i < numbers.length; i++) {
-    let number = numbers[i];
+// const make_avg = (numbers) => {
+//   let sum = 0;
+//   for (i = 0; i < numbers.length; i++) {
+//     const number = numbers[i];
+//     sum += number;
 
-    console.log(i, number);
+//     // const average = se
+//     // const average = number;
+//     // console.log(i, number);
+//   }
+//   const average = sum / numbers.length;
+//   return average;
+// };
+// const numbers = [4, 5, 6];
+// console.log(make_avg(numbers));
+
+const make_age_average = (ages) => {
+  let sum = 0;
+  for (let i = 0; i < ages.length; i++) {
+    sum += ages[i];
   }
+
+  const averageAge = sum / ages.length;
+  return averageAge;
 };
-const numbers = [4, 5, 6];
-console.log(make_avg(numbers));
+
+const ageNumbers = [10, 20, 30, 40];
+
+console.log(make_age_average(ageNumbers));
