@@ -4,3 +4,6 @@ const myCompurter = {
   color: "silver",
   model: "i77f1",
 };
+
+const comModel = myCompurter.model;
+console.log(comModel);
