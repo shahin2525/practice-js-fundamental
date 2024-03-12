@@ -1,9 +1,11 @@
-const myCompurter = {
+const myComputer = {
   name: "computer",
   price: 20000,
   color: "silver",
   model: "i77f1",
 };
 
-const comModel = myCompurter.model;
-console.log(comModel);
+const myComputerKeys = Object.keys(myComputer);
+const price = myComputer.price;
+myComputer.price = 50000;
+console.log(myComputer);
