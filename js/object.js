@@ -5,7 +5,16 @@ const myComputer = {
   model: "i77f1",
 };
 
-const myComputerKeys = Object.keys(myComputer);
-const price = myComputer.price;
-myComputer.price = 50000;
-console.log(myComputer);
+const keys = Object.keys(myComputer);
+const values = Object.values(myComputer);
+
+// for (let i = 0; i < keys.length; i++) {
+//   const propertyName = keys[i];
+//   const propertyValues = myComputer[propertyName];
+//   console.log(propertyName, propertyValues);
+// }
+
+for (let propertyName in myComputer) {
+  const propertyValues = myComputer[propertyName];
+  console.log(propertyName, propertyValues);
+}
