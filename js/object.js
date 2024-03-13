@@ -72,16 +72,48 @@
 // const numbers = [4, 5, 6];
 // console.log(make_avg(numbers));
 
-const make_age_average = (ages) => {
-  let sum = 0;
-  for (let i = 0; i < ages.length; i++) {
-    sum += ages[i];
-  }
+// const make_age_average = (ages) => {
+//   let sum = 0;
+//   for (let i = 0; i < ages.length; i++) {
+//     sum += ages[i];
+//   }
 
-  const averageAge = sum / ages.length;
-  return averageAge;
-};
+//   const averageAge = sum / ages.length;
+//   return averageAge;
+// };
 
-const ageNumbers = [10, 20, 30, 40];
+// const ageNumbers = [10, 20, 30, 40];
 
-console.log(make_age_average(ageNumbers));
+// console.log(make_age_average(ageNumbers));
+
+// const odd_even = (number) => {
+//   const even = number % 2 === 0;
+//   if (even) {
+//     return "even";
+//   } else {
+//     return "odd";
+//   }
+// };
+
+// const number = 11;
+// console.log(odd_even(number));
+
+// switch (color) {
+//   case "white":
+//     console.log("you are my white friend");
+//     break;
+//   case "blue":
+//     console.log("you are my blue friend");
+//     break;
+//   case "red":
+const signal = "red";
+switch (signal) {
+  case "green":
+    console.log("you should cross the road");
+    break;
+  case "red":
+    console.log("danger situation");
+    break;
+  case "yellow":
+    console.log("you should stop");
+}
