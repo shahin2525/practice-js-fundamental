@@ -1,4 +1,4 @@
-const userName = "14245";
+const userName = 12;
 const userInput = 12;
 console.log(userInput.length);
 if (userName.toLowerCase() === userInput.toLowerCase()) {
